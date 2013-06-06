@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency             'railties',
+  s.add_dependency             'railties'
   s.add_dependency             'actionpack'
   s.add_dependency             'less-rails' unless RUBY_PLATFORM == 'java'  
   s.add_development_dependency 'rails'
