@@ -33,7 +33,7 @@ Feature: Bootstrapped Scaffold Generator
       | spec/controllers/tasks_controller_spec.rb |
     When I run "rails g bootstrapped:layout -f"
     And I run "rake db:migrate"
-    And I add "gem 'rspec-rails', '>= 2.6.1'" to file "Gemfile"
+    And I add "gem 'rspec-rails'" to file "Gemfile"
     And I run "rails g rspec:install"
     And I replace "mock_with :rspec" with "mock_with :mocha" in file "spec/spec_helper.rb"
     Then I should successfully run "rake spec"

@@ -1,6 +1,6 @@
 = Updated
 
-Twitter bootstrap updated to v2.3.2 by Jan Gnip
+Updated by Jan Gnip, see changelog
 
 = Bootstrapped
 
@@ -75,6 +75,11 @@ If you are having a problem with Bootstrapped, first look at the FAQs above. If 
 http://github.com/entropillc/bootstrapped/issues
 
 == Change Log
+
+=== Version 2.2.3
+
+  * Updated Twitter Bootstrap to 2.3.2
+  * Removed old gem versions 
 
 === Version 2.0.3
   

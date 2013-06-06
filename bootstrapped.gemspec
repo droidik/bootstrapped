@@ -16,15 +16,15 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency             'railties',   '>= 3.1'
-  s.add_dependency             'actionpack', '>= 3.1'
-  s.add_dependency             'less-rails', '~> 2.1.6' unless RUBY_PLATFORM == 'java'  
-  s.add_development_dependency 'rails', '>= 3.1'
-  s.add_development_dependency 'rspec-rails', '~> 2.6.1'
-  s.add_development_dependency 'mocha', '~> 0.9.12'
-  s.add_development_dependency 'cucumber', '~> 1.0.6'
-  s.add_development_dependency "bundler", "~> 1.0.0"
-  s.add_development_dependency "rails",   "~> 3.1"
+  s.add_dependency             'railties',
+  s.add_dependency             'actionpack'
+  s.add_dependency             'less-rails' unless RUBY_PLATFORM == 'java'  
+  s.add_development_dependency 'rails'
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'mocha'
+  s.add_development_dependency 'cucumber'
+  s.add_development_dependency "bundler"
+  s.add_development_dependency "rails"
   
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
