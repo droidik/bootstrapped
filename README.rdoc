@@ -1,3 +1,7 @@
+= Updated
+
+Twitter bootstrap updated to v2.3.2 by Jan Gnip
+
 = Bootstrapped
 
 Bootstrapped is a gem that helps you quickly integrate Twitter's Bootstrap in to your project to enable you to build user interfaces rapidly. 
